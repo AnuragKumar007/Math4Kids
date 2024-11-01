@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Division</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    
+    <audio id="correct_audio">
+        <source src="Audio/correct.mp3">
+    </audio>
+    <audio id="wrong_audio">
+        <source src="Audio/wrong.mp3">
+    </audio>
+
+    <header>
+        <div class="navbar">
+            <h1> Math 4 Kids</h1>
+            <ul>
+                <li ><a href="index.html">ADD</a></li>
+                <li ><a href="Subtraction.html">Subtract</a></li>
+                <li class="active"><a href="Multiplication.html">Multiply</a></li>
+                <li ><a href="Division.html">Divide</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="equation">
+                <h1 id="num1" style="color: rgb(254, 73, 41);">1</h1>
+                <h1 style="color: rgb(0, 157, 255);">*</h1>
+                <h1 id="num2" style="color: darkmagenta;">1</h1>
+                <h1 style="color: hotpink;">=</h1>
+                <h1 style="color: royalblue;">?</h1>
+            </div>
+            <div class="options">
+                <h1 id="option1">1</h1>
+                <h1 id="option2">2</h1>
+                <h1 id="option3">3</h1>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="Scripts/multiply.js"></script>
+</body>
+</html>
